@@ -22,6 +22,7 @@ def delete_task(tasks, task_index):
 def main():
     tasks = []
     while True:
+        print("Time")
         print("\nOptions:")
         print("1. Add task")
         print("2. View tasks")
