@@ -12,8 +12,7 @@ window=sg.Window('My Todo APP',
                  font=('Helvetica',20))
 while True:
     event,values= window.read()
-    print(1,event)
-    print(2,values)
+    print(values)
 
 
 
@@ -39,6 +38,6 @@ while True:
 
 
         case sg.WIN_CLOSED:
-            break
+            exit()
 
 window.close()
